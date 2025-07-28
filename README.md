@@ -13,29 +13,6 @@ It provides a streamlined pipeline for data preprocessing, model training, evalu
 
 ✅ Clean and modular codebase
 
-## 📁 Project File Structure
-
-The project is organized as follows:
-
-cardiovascular-detection/
-│
-├── data/
-│ └── cardio_data.csv # Raw dataset (e.g., from Kaggle)
-│
-├── models/
-│ └── model.pkl # Trained machine learning model
-│
-├── notebooks/
-│ └── EDA.ipynb # Jupyter notebook for data analysis and visualization
-│
-├── app/
-│ ├── app.py # Streamlit or FastAPI application for prediction
-│ └── utils.py # Helper functions (e.g., preprocessing, loading model)
-│
-├── train.py # Script to train and evaluate ML models
-├── requirements.txt # Project dependencies
-├── README.md # Project documentation
-└── LICENSE # Project license
 
 
 🧠 Technologies Used
