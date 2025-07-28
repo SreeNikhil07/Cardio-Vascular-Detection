@@ -4,6 +4,8 @@ It provides a streamlined pipeline for data preprocessing, model training, evalu
 
 📌 Features
 ✅ Data preprocessing and feature scaling
+
+
 ✅ Multiple ML model support (Logistic Regression, Random Forest, XGBoost, etc.)
 ✅ Model evaluation with accuracy, precision, recall, and ROC-AUC
 ✅ Streamlit/FastAPI web interface for real-time prediction
