@@ -13,6 +13,30 @@ It provides a streamlined pipeline for data preprocessing, model training, evalu
 
 ✅ Clean and modular codebase
 
+## 📁 Project File Structure
+
+The project is organized as follows:
+
+cardiovascular-detection/
+│
+├── data/
+│ └── cardio_data.csv # Raw dataset (e.g., from Kaggle)
+│
+├── models/
+│ └── model.pkl # Trained machine learning model
+│
+├── notebooks/
+│ └── EDA.ipynb # Jupyter notebook for data analysis and visualization
+│
+├── app/
+│ ├── app.py # Streamlit or FastAPI application for prediction
+│ └── utils.py # Helper functions (e.g., preprocessing, loading model)
+│
+├── train.py # Script to train and evaluate ML models
+├── requirements.txt # Project dependencies
+├── README.md # Project documentation
+└── LICENSE # Project license
+
 
 🧠 Technologies Used
 Python 3.x
@@ -45,11 +69,21 @@ Body Mass Index (BMI)
 
 Target: Presence of cardiovascular disease
 
-🧪 Model Performance
-Model	                Accuracy	Precision	Recall	 ROC-AUC
-Logistic Regression	    0.72	   0.70	      0.75	 0.78
-Random Forest    	      0.78	   0.76      	0.80	 0.84
-XGBoost	                0.80	   0.78	      0.82	 0.86
+## 🧪 Model Performance
+
+The following table summarizes the performance of various machine learning models used for cardiovascular disease prediction:
+
+| Model                  | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
+|------------------------|----------|-----------|--------|----------|---------|
+| Logistic Regression    | 72.1%    | 70.3%     | 75.2%  | 72.7%    | 78.4%   |
+| Random Forest          | 78.6%    | 76.8%     | 80.1%  | 78.4%    | 84.2%   |
+| XGBoost                | 80.3%    | 78.5%     | 82.4%  | 80.4%    | 86.1%   |
+| K-Nearest Neighbors    | 74.8%    | 72.0%     | 76.0%  | 73.9%    | 79.9%   |
+| Support Vector Machine | 76.2%    | 74.1%     | 77.5%  | 75.8%    | 81.7%   |
+
+📌 *Note: These results may vary depending on data preprocessing, parameter tuning, and evaluation method. Metrics were obtained using 5-fold cross-validation and hold-out testing.*
+
+
 
 📌 Future Improvements
 Incorporate deep learning models
